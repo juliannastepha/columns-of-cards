@@ -2,8 +2,160 @@ html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
+  background-color: #f2f2f2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  vertical-align: middle;
+  margin: 1.25rem;
+  margin-top: .4rem;
+}
+
+h2, h3 {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.card {
+  width: 25%;
+}
+
+.anderon {
+  background-color: #e2e2e2;
+  border-style: solid;
+  border-color: #000;
+  border-width: .4px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  min-height: 350px;
+  padding: 1.5rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: .7rem;
+}
+
+.dinosaur {
+  background-color: #cccccc;
+  border-style: solid;
+  border-color: #000;
+  border-width: .4px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  min-height: 350px;
+  padding: 1.5rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: .7rem;
+}
+
+.dragon {
+  background-color: #aaaaaa;
+  border-style: solid;
+  border-color: #000;
+  border-width: .4px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  min-height: 350px;
+  padding: 1.5rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: .7rem;
+}
+
+.laser {
+  background-color: #999999;
+  border-style: solid;
+  border-color: #000;
+  border-width: .4px;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  min-height: 350px;
+  padding: 1.5rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  padding-top: .7rem;
+}
+
+.anderon img {
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.dinosaur img {
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.dragon img {
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+.laser img {
+  display: block;
+  margin: 0 auto 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 0;
+  padding-bottom: 1rem;
+}
+
+ul {
+  max-height: 400px
+}
+
+.btn {
+  font-size: .875rem;
+  background-color: #333333;
+  color: #f2f2f2;
+  border-radius: 10px
+  padding: .75rem;
+}
+
+.btn-small {
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000000;
 }

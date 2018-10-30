@@ -15,14 +15,19 @@ body {
 
 img {
   display: block;
-  width: 100%
+  width: 100%;
+}
+
+li img {
+  width: 100px;
 }
 
 section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-grow: 1;
-  vertical-align: middle;
+  justify-content: center;
+  align-items: stretch;
   margin: 1.25rem;
   margin-top: .4rem;
 }
@@ -44,6 +49,9 @@ h3 {
 
 li {
   float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   list-style-type: none;
   padding-left: .75rem;
   padding-right: .75rem;
@@ -57,11 +65,11 @@ li {
   background-color: #e2e2e2;
   border-style: solid;
   border-color: #000;
-  border-width: .4px;
+  border-width: .5px;
   border-top: 0;
   border-right: 0;
   border-bottom: 0;
-  min-height: 350px;
+  min-height: 415px;
   padding: 1.5rem;
   padding-left: .75rem;
   padding-right: .75rem;
@@ -69,14 +77,14 @@ li {
 }
 
 .dinosaur {
-  background-color: #cccccc;
+  background-color: #ccc;
   border-style: solid;
   border-color: #000;
-  border-width: .4px;
+  border-width: .5px;
   border-top: 0;
   border-right: 0;
   border-bottom: 0;
-  min-height: 350px;
+  min-height: 415px;
   padding: 1.5rem;
   padding-left: .75rem;
   padding-right: .75rem;
@@ -84,14 +92,14 @@ li {
 }
 
 .dragon {
-  background-color: #aaaaaa;
+  background-color: #aaa;
   border-style: solid;
   border-color: #000;
-  border-width: .4px;
+  border-width: .5px;
   border-top: 0;
   border-right: 0;
   border-bottom: 0;
-  min-height: 350px;
+  min-height: 415px;
   padding: 1.5rem;
   padding-left: .75rem;
   padding-right: .75rem;
@@ -99,14 +107,14 @@ li {
 }
 
 .laser {
-  background-color: #999999;
+  background-color: #999;
   border-style: solid;
   border-color: #000;
-  border-width: .4px;
+  border-width: .5px;
   border-top: 0;
   border-right: 0;
   border-bottom: 0;
-  min-height: 350px;
+  min-height: 415px;
   padding: 1.5rem;
   padding-left: .75rem;
   padding-right: .75rem;
@@ -140,14 +148,14 @@ p {
 }
 
 ul {
-  max-height: 400px
+  max-height: 400px;
 }
 
 .btn {
   font-size: .875rem;
-  background-color: #333333;
+  background-color: #333;
   color: #f2f2f2;
-  border-radius: 10px
+  border-radius: 10px;
   padding: .75rem;
 }
 
@@ -157,5 +165,9 @@ ul {
 }
 
 .btn:hover {
-  background-color: #000000;
+  background-color: #000;
+}
+
+cite {
+  font-size: .875rem;
 }
